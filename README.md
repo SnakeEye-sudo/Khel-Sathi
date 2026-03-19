@@ -1,4 +1,4 @@
-# Khel Sathi
+﻿# Khel Sathi
 
 ## About
 
@@ -9,6 +9,12 @@ Family tic tac toe app with friend mode, bot mode, and a polished mobile board.
 - GitHub repo: https://github.com/SnakeEye-sudo/Khel-Sathi
 - Tags: sathi-family, tic-tac-toe, casual-game, board-game, pwa, hindi-app
 
+<!-- app-screenshot:start -->
+## App Screenshot
+
+![App screenshot](docs/preview.png)
+
+<!-- app-screenshot:end -->
 ## Creator
 
 Built and originally created by **Er. Sangam Krishna** ([SnakeEye-sudo](https://github.com/SnakeEye-sudo)).
@@ -24,3 +30,4 @@ Built and originally created by **Er. Sangam Krishna** ([SnakeEye-sudo](https://
 This repository uses the **MIT License** with a required **NOTICE** file.
 That means collaboration is allowed, but copyright and attribution notices must stay preserved.
 See [LICENSE](LICENSE), [NOTICE](NOTICE), and [CONTRIBUTING.md](CONTRIBUTING.md).
+
