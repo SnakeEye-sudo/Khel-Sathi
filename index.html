@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10162a">
+  <meta name="description" content="Family-friendly tic tac toe game with friend and bot modes, scoreboard tracking, and a polished mobile-first play board.">
+  <title>Khel Sathi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="night">
+  <div class="ambient-layer">
+    <div class="ambient-orb orb-a"></div>
+    <div class="ambient-orb orb-b"></div>
+    <div class="ambient-grid"></div>
+    <div class="ambient-noise"></div>
+  </div>
+
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-top">
+        <div class="brand-wrap">
+          <img src="logo.svg" alt="Khel Sathi logo" class="brand-logo">
+          <div>
+            <p class="hero-tag">Family mini arena</p>
+            <h1>Khel Sathi</h1>
+          </div>
+        </div>
+        <a class="family-chip" href="https://snakeeye-sudo.github.io/Aapka-Sathi/">Aapka-Sathi family</a>
+      </div>
+
+      <div class="hero-grid">
+        <section class="hero-copy">
+          <p class="eyebrow">Playful board duel</p>
+          <h2 class="hero-headline">Tic tac toe ko polished family game board bana diya gaya hai.</h2>
+          <p class="hero-text">Friend mode aur smart block/win bot ke saath yeh quick-play game chai break aur study break dono me fit baithta hai.</p>
+          <div class="hero-badges">
+            <span class="hero-badge">Tic tac toe</span><span class="hero-badge">Vs friend</span><span class="hero-badge">Vs bot</span><span class="hero-badge">Scoreboard</span>
+          </div>
+        </section>
+
+        <section class="hero-side">
+          <div class="metric-card">
+            <p class="eyebrow">Round speed</p>
+            <h3>Under a minute</h3>
+            <strong>3 x 3</strong>
+            <p class="muted">Quick matches, zero setup.</p>
+          </div>
+          <div class="metric-card secondary">
+            <p class="eyebrow">Info</p>
+            <h3>Two modes</h3>
+            <p class="muted">Human duel ya lightweight bot.</p>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main id="appRoot" class="app-root"></main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="logo.svg" alt="Khel Sathi logo">
+        <div>
+          <strong>Khel Sathi</strong>
+          <p>Short breaks ko memorable banane ke liye.</p>
+        </div>
+      </div>
+      <nav class="footer-links">
+        <a href="about.html">About</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

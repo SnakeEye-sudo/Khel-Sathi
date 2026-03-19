@@ -1,0 +1,13 @@
+{
+  "name": "khel-sathi",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Family-friendly tic tac toe game with friend and bot modes, scoreboard tracking, and a polished mobile-first play board.",
+  "scripts": {
+    "build": "esbuild src/app.ts --bundle --format=iife --target=es2020 --outfile=app.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.25.2"
+  }
+}
