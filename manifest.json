@@ -8,10 +8,11 @@
   "description": "Family-friendly tic tac toe game with friend and bot modes, scoreboard tracking, and a polished mobile-first play board.",
   "icons": [
     {
-      "src": "logo.svg",
+      "src": "logo.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     }
   ]
 }
+
